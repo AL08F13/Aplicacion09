@@ -28,11 +28,14 @@
   <div data-role="header">
     <h1>Aplicacion 07</h1>
   </div>
-  <div id="jugador">
-<div>
-  <div data-role="main" class="ui-content">
+
+  <div data-role="main" class="ui-content"> 
+   <div id="jugador">
+</div>
     <div align="center">
     <a href="#tablero" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline " id="btnjugar">JUGAR</a>
+    
+    <a href="#config" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline " id="btnconfigurar">Configurar</a>
     </div>
   </div>
 
@@ -59,6 +62,25 @@
   </div>
  </div>  
  <!-- tablero -->
-
+ <!-- configuracion-->
+  <div data-role="page" id="config" >   
+  <div data-role="header">
+    <h1>configurar</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+  <div align="center">
+   <input type="text" id="txtnombre" placeholder="nombre" />
+   
+    <a href="#" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline " id="btnGuardar">Guardar</a>
+    
+   
+    
+     <div data-role="footer">
+    <a href="#principal" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline " id="btninicio">Inicio</a>
+    <div>
+  </div>
+ <!-- configuracion-->
+ 
  </body>
 </html> 
